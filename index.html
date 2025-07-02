@@ -17,7 +17,7 @@
       </ul>
      <img src="/src/images/R&M-logo.png" alt="Rick and Morty Logo" class="logo" />
     </nav>
-    
+
     <main>
     <section id="startpagina">
       <h1>Rick & Morty Collectors</h1>
@@ -28,6 +28,36 @@
           Veel plezier!
       </p>
     </section>
+
+    <section id="personnages">
+          <input type="text" id="search" placeholder="Zoek een personage..." />
+
+          <select id="sort" aria-label="Sorteer personages">
+            <option value="">Sorteer op...</option>
+            <option value="name">Naam (A-Z)</option>
+            <option value="importance">Importance (hoog-laag)</option>
+          </select>
+
+          <h2>Alle Personages</h2>
+
+          <table id="personnages-table">
+            <thead>
+              <tr>
+                <th>Afbeelding</th>
+                <th>Naam</th>
+                <th>Status</th>
+                <th>Soort</th>
+                <th>Gender</th>
+                <th>Origin</th>
+                <th>Importance</th>
+                <th>Actie</th>
+              </tr>
+            </thead>
+            <tbody id="personnages-section">
+            </tbody>
+          </table>
+        </section>
+
 
 
     </main>
