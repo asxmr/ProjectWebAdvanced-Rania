@@ -91,3 +91,13 @@ searchInput.addEventListener("input", (e) => {
     row.style.display = naam.includes(zoekterm) ? "table-row" : "none";
   });
 });
+
+sortSelect.addEventListener("change", () => {
+  let sorted = [...personnages];
+  if (sortSelect.value === "name") {
+    sorted.sort((a, b) => a.name.localeCompare(b.name));
+  } else if (sortSelect.value === "importance") {
+    sorted.sort((a, b) => b.importance - a.importance);
+  }
+  renderPersonnages(sorted);
+});
