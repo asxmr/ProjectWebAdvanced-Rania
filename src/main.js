@@ -50,3 +50,8 @@ function renderPersonnages(data) {
     personnagesSection.appendChild(row);
   });
 }
+
+function saveCollection() {
+  localStorage.setItem("collection", JSON.stringify(collection));
+}
+
