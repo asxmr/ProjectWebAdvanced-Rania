@@ -9,3 +9,9 @@ async function fetchPersonnages() {
   }
 }
 
+const personnagesSection = document.getElementById("personnages-section");
+const collectionSection = document.getElementById("collection-section");
+const puntenSpan = document.getElementById("punten");
+const puntenDisplay = document.getElementById("punten-display");
+const searchInput = document.getElementById("search");
+const sortSelect = document.getElementById("sort");
