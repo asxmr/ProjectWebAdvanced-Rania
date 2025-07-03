@@ -84,3 +84,10 @@ function updateCollection() {
   puntenSpan.textContent = total;
 }
 
+searchInput.addEventListener("input", (e) => {
+  const zoekterm = e.target.value.toLowerCase();
+  document.querySelectorAll("#personnages-section tr").forEach((row) => {
+    const naam = row.querySelector("td:nth-child(2)")?.textContent.toLowerCase();
+    row.style.display = naam.includes(zoekterm) ? "table-row" : "none";
+  });
+});
