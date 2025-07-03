@@ -42,3 +42,11 @@ function createPersonnageRow(personnage) {
 
   return row;
 }
+
+function renderPersonnages(data) {
+  personnagesSection.innerHTML = ""; 
+  data.forEach((p) => {
+    const row = createPersonnageRow(p);
+    personnagesSection.appendChild(row);
+  });
+}
