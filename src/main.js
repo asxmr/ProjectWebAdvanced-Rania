@@ -101,3 +101,17 @@ sortSelect.addEventListener("change", () => {
   }
   renderPersonnages(sorted);
 });
+
+let personnages = [];
+let collection = JSON.parse(localStorage.getItem("collection")) || [];
+
+window.addEventListener("DOMContentLoaded", () => {
+  fetchPersonnages().then((data) => {
+    personnages = data.map((p) => ({
+      ...p,
+      importance: Math.floor(Math.random() * 100) + 1,
+    }));
+    renderPersonnages(personnages);
+    updateCollection();
+  });
+});
