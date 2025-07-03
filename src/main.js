@@ -55,3 +55,32 @@ function saveCollection() {
   localStorage.setItem("collection", JSON.stringify(collection));
 }
 
+function updateCollection() {
+  collectionSection.innerHTML = "";
+  let total = 0;
+
+  collection.forEach((p) => {
+    total += p.importance || 0;
+
+    const card = document.createElement("div");
+    card.classList.add("card");
+
+    card.innerHTML = `
+      <img src="${p.image}" alt="${p.name}" />
+      <h3>${p.name}</h3>
+      <p>Importance: ${p.importance}</p>
+      <button class="remove-btn">Verwijderen</button>
+    `;
+
+    card.querySelector(".remove-btn").addEventListener("click", () => {
+      collection = collection.filter((c) => c.id !== p.id);
+      saveCollection();
+      updateCollection();
+    });
+
+    collectionSection.appendChild(card);
+  });
+
+  puntenSpan.textContent = total;
+}
+
