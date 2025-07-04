@@ -132,3 +132,14 @@ window.addEventListener("DOMContentLoaded", () => {
   const route = location.hash.replace("#", "") || "startpagina";
   showRoute(route);
 });
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      console.log("Geschiedenis sectie is in beeld!");
+    }
+  });
+}, { threshold: 0.5 });
+
+const geschiedenisSectie = document.getElementById("geschiedenis");
+if (geschiedenisSectie) observer.observe(geschiedenisSectie);
