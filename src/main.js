@@ -115,3 +115,10 @@ window.addEventListener("DOMContentLoaded", () => {
     updateCollection();
   });
 });
+
+function showRoute(route) {
+  const sections = document.querySelectorAll("section");
+  sections.forEach((sec) => {
+    sec.style.display = sec.dataset.route === route ? "block" : "none";
+  });
+}
