@@ -127,3 +127,8 @@ window.addEventListener("hashchange", () => {
   const route = location.hash.replace("#", "") || "startpagina";
   showRoute(route);
 });
+
+window.addEventListener("DOMContentLoaded", () => {
+  const route = location.hash.replace("#", "") || "startpagina";
+  showRoute(route);
+});
