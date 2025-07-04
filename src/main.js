@@ -122,3 +122,8 @@ function showRoute(route) {
     sec.style.display = sec.dataset.route === route ? "block" : "none";
   });
 }
+
+window.addEventListener("hashchange", () => {
+  const route = location.hash.replace("#", "") || "startpagina";
+  showRoute(route);
+});
