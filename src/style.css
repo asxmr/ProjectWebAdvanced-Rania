@@ -99,3 +99,18 @@ footer {
   border-radius: 4px;
   font-weight: bold;
 }
+
+.collect-btn:hover {
+  background-color: #4b0082;
+  color: white;
+}
+
+#collection-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.card {
+  width: 220px;
+}
