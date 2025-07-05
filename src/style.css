@@ -125,3 +125,11 @@ footer {
   justify-content: space-between;
 }
 
+.card button {
+  margin: 0.5rem auto 1rem auto;
+  padding: 0.5rem 1rem;
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
