@@ -91,3 +91,11 @@ footer {
   border-radius: 50%; 
   object-fit: cover;
 }
+
+.collect-btn {
+  padding: 0.4rem 0.7rem;
+  background-color: #00ffcc;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
