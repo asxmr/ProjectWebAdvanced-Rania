@@ -129,7 +129,27 @@ footer {
   margin: 0.5rem auto 1rem auto;
   padding: 0.5rem 1rem;
   background-color: #4b0082;
-  color: white;
   border: none;
   border-radius: 8px;
+  font-weight: bold;
+}
+
+.card button:hover {
+  background-color: #00ffcc;
+  color:white;
+}
+
+@media (max-width: 768px) {
+  #personnages-table {
+    overflow-x: auto;
+    display: block;
+  }
+
+  table {
+    min-width: 700px; 
+  }
+
+  th, td {
+    white-space: nowrap; 
+  }
 }
