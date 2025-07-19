@@ -78,11 +78,10 @@ ProjectWebAdvanced-Rania/
 │   ├── screenshots/
 │   └── images/
 │       └── R&M-logo.png
-
+```
 ---
 
 ## Installatie-instructies
-
 ### Vereisten
 
 * Node.js (v18 of hoger)
