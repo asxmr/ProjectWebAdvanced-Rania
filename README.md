@@ -101,17 +101,43 @@ Ga vervolgens naar [http://localhost:5173](http://localhost:5173) in je browser.
 ---
 
 ## Screenshots
+**Startpagina**
 <img width="943" height="452" alt="Startpagina" src="https://github.com/user-attachments/assets/c69f2c2b-0898-4bef-9f71-147fdcb36a42" />
+**Tabel personnages**
 <img width="939" height="447" alt="Personnages 1" src="https://github.com/user-attachments/assets/c6c66c64-b6e0-42b3-9ebf-a23de43ac311" />
+**Wanneer je een personnage toevoegt**
 <img width="937" height="449" alt="Personnages 2" src="https://github.com/user-attachments/assets/26667841-fb7d-41c2-9f8e-165d462c8d1c" />
+**Lege ollectie**
 <img width="951" height="445" alt="Lege collectie" src="https://github.com/user-attachments/assets/9eb21533-20f5-4072-91c4-1de20c4ec9aa" />
+**Collectie**
 <img width="937" height="438" alt="Collectie" src="https://github.com/user-attachments/assets/914e53f6-f0ff-45b6-9855-f26ac4fc81df" />
+**Geschiedenis**
 <img width="951" height="444" alt="Geschiedenis" src="https://github.com/user-attachments/assets/cd64b5b5-37eb-44ac-89be-4a5e3a313316" />
 
 
 ---
 
 ## Bronvermelding
+**HTML, CSS & JavaScript algemene documentatie:**
+W3Schools. (z.d.). CSS Tutorial. W3Schools. Geraadpleegd op 2 juli 2025, van https://www.w3schools.com/css/
+W3Schools. (z.d.). JavaScript Tutorial. W3Schools. Geraadpleegd op 3 juli  2025, van https://www.w3schools.com/js/
+**Kleur & Design Tools:**
+HTML Color Codes. (z.d.). Color Picker. Geraadpleegd op 2 juli 2025, van https://htmlcolorcodes.com/color-picker/
+CSS Gradient. (z.d.). CSS Gradient Generator. Geraadpleegd op 2 juli 2025, van https://cssgradient.io/
+Coolors. (z.d.). Color Palette Generator. Geraadpleegd op 2 juli 2025, van https://coolors.co/
+**API Documentatie:**
+The Rick and Morty API. (z.d.). Documentation. Geraadpleegd op 3 juni 2025, van https://rickandmortyapi.com/documentation
+**ChatGPT gesprekken:**
+<img width="896" height="350" alt="bron 1" src="https://github.com/user-attachments/assets/9c55fd3d-9ce9-469f-a4c1-6aa4cd9f8922" />
+<img width="888" height="353" alt="bron 2" src="https://github.com/user-attachments/assets/89218b6f-c1b5-4148-8068-3721a48d9b9e" />
+<img width="876" height="346" alt="bron 3" src="https://github.com/user-attachments/assets/6f7cc2e2-2a73-478c-8b2b-82b36b235b4b" />
+<img width="895" height="344" alt="bron 4" src="https://github.com/user-attachments/assets/6fde3429-02f4-487b-9b8d-5f9985cb1b84" />
+<img width="890" height="328" alt="bron 5" src="https://github.com/user-attachments/assets/8a6c92c5-ee16-48c5-bea5-2b8afd5bc663" />
+<img width="888" height="341" alt="bron 6" src="https://github.com/user-attachments/assets/45c9c5f5-a98d-44f2-a178-d6eedee0310a" />
+<img width="885" height="350" alt="bron 7" src="https://github.com/user-attachments/assets/973e0e0d-a36c-47d2-8f83-6fa5f57102a3" />
+<img width="901" height="336" alt="bron 8" src="https://github.com/user-attachments/assets/6afae1eb-6228-41d2-bfe3-82d0862ef078" />
+<img width="907" height="339" alt="bron 9" src="https://github.com/user-attachments/assets/70103669-cfbd-4ef9-9929-434ba85c259e" />
+<img width="881" height="334" alt="bron 10" src="https://github.com/user-attachments/assets/f8451672-cabf-453b-8dc7-df741895a011" />
 
 
 ---
