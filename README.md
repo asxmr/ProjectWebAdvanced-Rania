@@ -101,6 +101,12 @@ Ga vervolgens naar [http://localhost:5173](http://localhost:5173) in je browser.
 ---
 
 ## Screenshots
+<img width="943" height="452" alt="Startpagina" src="https://github.com/user-attachments/assets/c69f2c2b-0898-4bef-9f71-147fdcb36a42" />
+<img width="939" height="447" alt="Personnages 1" src="https://github.com/user-attachments/assets/c6c66c64-b6e0-42b3-9ebf-a23de43ac311" />
+<img width="937" height="449" alt="Personnages 2" src="https://github.com/user-attachments/assets/26667841-fb7d-41c2-9f8e-165d462c8d1c" />
+<img width="951" height="445" alt="Lege collectie" src="https://github.com/user-attachments/assets/9eb21533-20f5-4072-91c4-1de20c4ec9aa" />
+<img width="937" height="438" alt="Collectie" src="https://github.com/user-attachments/assets/914e53f6-f0ff-45b6-9855-f26ac4fc81df" />
+<img width="951" height="444" alt="Geschiedenis" src="https://github.com/user-attachments/assets/cd64b5b5-37eb-44ac-89be-4a5e3a313316" />
 
 
 ---
