@@ -102,7 +102,7 @@ Ga vervolgens naar [http://localhost:5173](http://localhost:5173) in je browser.
 
 ## Screenshots
 * **Startpagina**
-* <img width="943" height="452" alt="Startpagina" src="https://github.com/user-attachments/assets/c69f2c2b-0898-4bef-9f71-147fdcb36a42" />
+ <img width="943" height="452" alt="Startpagina" src="https://github.com/user-attachments/assets/c69f2c2b-0898-4bef-9f71-147fdcb36a42" />
 * **Tabel personnages**
 * <img width="939" height="447" alt="Personnages 1" src="https://github.com/user-attachments/assets/c6c66c64-b6e0-42b3-9ebf-a23de43ac311" />
 * **Wanneer je een personnage toevoegt**
